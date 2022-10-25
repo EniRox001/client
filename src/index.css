@@ -1,13 +1,139 @@
+/*-----------------Layout------------------*/
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 5em;
+  background-color: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.login {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.login-container-img {
+  display: flex;
+  justify-content: end;
+  width: 40%;
+}
+
+.login-container-image {
+  align-self: center;
+  margin: 0;
+  max-width: 70%;
+  height: 100%;
+}
+
+.login-container-box {
+  text-align: center;
+  align-self: center;
+  margin: 0 auto;
+  padding: 1em 3em;
+  height: 80%;
+  width: 25%;
+  margin-left: 2em;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(202, 202, 202);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.login-container-box-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.login-container-box-subtitle {
+
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: grey;
+  width: 20;
+}
+
+.login-container-box-fb-login-button {
+  background-color: #0095F6;
+  border: none;
+  padding: .25em 0;
+  width: 100%;
+  justify-content: center;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.login-container-box-fb-login-button-image {
+  width: 25px;
+  padding-right: .5em;
+}
+
+.divider {
+  text-align: center;
+  color: grey;
+  font-weight: 600;
+}
+
+.divider hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 38%;
+
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.login-container-box-fb-login-button-text {
+  color: white;
+  font-weight: 600;
+}
+
+.login-container-box-input-field {
+  padding: 1em .7em;
+  border-radius: 3px;
+  border: 1px solid grey;
+  background-color: rgb(248, 247, 247);
+}
+
+.login-container-box-input-field:focus {
+  outline: none !important;
+  border: 1px solid rgb(75, 74, 74);
+}
+
+.login-container-box-terms {
+  color: grey;
+  font-size: .85rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-container-box-terms a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+  font-weight: 900;
+}
+
+.login-container-box-signup {
+  background-color: #b7e2ff
+    /*#0095F6*/
+  ;
+  border: 0 none;
+  padding: .7em 0;
+  width: 100%;
+  border-radius: 4px;
+  align-items: center;
 }
